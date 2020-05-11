@@ -1,68 +1,51 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="Stylesheet.css" media="screen"/>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
+    <meta charset="utf-8">
     <title>Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .top-row {
-            display: grid;
-            grid-template-columns: 70% 10% 10% 10%;
-        }
-        .top-row {
-            padding: 1em;
-        }
 
-        .middle {
-            display: grid;
-            grid-template-columns: 40% 60%;
-        }
     </style>
 </head>
 
 <body>
-    <div class = "top-row">
-        <div class = "grid-item">
-            <img id="signature" src="signature.jpg" alt="Signature" style="width:190px;height:75px;">
-        </div>
+    <header>
+        <img id="signature.jpg" src="signature.jpg" alt="signature" style="width:212px;height:88px;">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">projects</a></li>
+                <li><a href="#">resume</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span>&#9776;</span>
+        </label>
+    </header>
 
-        <div class = "grid-item">
-            <span class="highlight">
-                about
-            </span>
-        </div>
-
-        <div class = "grid-item">
-            <span class="highlight">
-                <a style="text-decoration:none" href="Jenny Song Resume 2020 - WITS.pdf" target="_blank">resume</a>
-            </span>
-        </div>
-
-        <div class = "grid-item">
-            <span class="highlight">
-                experience
-            </span>
-        </div>
-
-
-    </div>
 
     <div class = "middle">
-        <div class="headshot">
+        <div class="head-shot">
             <img id="jenny" src="jenny.png" alt="me" style="width:372px;height:372px;">
         </div>
-        <div>
+        <div class="text">
             <br>
             <h1>jen &#183 ny <i>(noun)</i> </h1>
+            <br>
             <h2>
                 <p>A software engineering student with a passion for
                     making life easier by crafting simple yet beautiful
                     experiences.</p>
-
-                <p>I'm interested in product internship opportunities for <br>
+                <br>
+                <p>I'm interested in product internship opportunities for
                     Summer 2021 - let's chat!</p>
             </h2>
         </div>
     </div>
+
 </body>
 </html>

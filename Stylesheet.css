@@ -1,11 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: white;
 }
-
 h1 {
     color: black;
     font-family: "Microsoft JhengHei UI Light";
-    font-size: 35px;
+    font-size: 48px;
 }
 
 h2 {
@@ -14,17 +17,168 @@ h2 {
     font-size: 25px;
 }
 
-span.highlight {
+/*span.highlight {
     color: black;
     font-family: "Microsoft JhengHei UI Light";
     font-size: 18px;
     background: linear-gradient(180deg, rgba(255,255,255,0) 55%, #adcbcd 30%);
+}*/
+
+/*navigation style*/
+header {
+    background: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
-div.headshot {
-    margin-left: 60px;
+nav{
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+    background: white;
 }
 
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left:1em;
+}
+
+nav a {
+    color: black;
+    background: white;
+    text-decoration: none;
+    font-family: "Microsoft JhengHei UI Light";
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+nav a:hover {
+    color: #adcbcd;
+}
+
+.nav-toggle:checked ~ nav {
+    transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+}
+.nav-toggle {
+    display:none;
+}
+
+.nav-toggle-label {
+    background: white;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+/*body style*/
+.middle {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 150px;
+}
+
+div.head-shot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*when expanded*/
+@media screen and (min-width: 800px) {
+    .nav-toggle-label {
+        display:none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+    }
+
+    nav {
+        all: unset;
+        grid-column: 3 / 5;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav a {
+        opacity: 1;
+    }
+
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 1em;
+        margin-right: 2em;
+    }
+
+    /*style for laptop*/
+    div.head-shot {
+        margin-left: 60px;
+    }
+
+    div.text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 4fr 6fr;
+    }
+}
+
+/*style for phone
+@media only screen and (max-width: 600px) {
+    div.head-shot {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    label {
+        display: block;
+        curser: pointer;
+    }
+
+    .highlight {
+        display: block;
+        border-bottom: 1px;
+        margin: 0;
+    }
+
+}*/
 
 
 
