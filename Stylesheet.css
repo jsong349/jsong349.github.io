@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    font-family: "Microsoft JhengHei UI Light";
+    font-size: 35px;
+}
+
+h2 {
+    color: black;
+    font-family: "Microsoft JhengHei UI Light";
+    font-size: 25px;
+}
+
+span.highlight {
+    color: black;
+    font-family: "Microsoft JhengHei UI Light";
+    font-size: 18px;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 55%, #adcbcd 30%);
+}
+
+div.headshot {
+    margin-left: 60px;
+}
+
+
+
+
