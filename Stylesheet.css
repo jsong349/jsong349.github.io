@@ -17,6 +17,13 @@ h2 {
     font-size: 25px;
 }
 
+b {
+    color: #ADCBCD;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei UI Light";
+    font-size: 25px;
+}
+
 /*span.highlight {
     color: black;
     font-family: "Microsoft JhengHei UI Light";
@@ -95,7 +102,7 @@ nav a:hover {
 .middle {
     margin: 0;
     padding-left: 0;
-    padding-top: 150px;
+    padding-top: 135px;
 }
 
 div.head-shot {
@@ -109,6 +116,48 @@ div.text {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+/*icon style*/
+.icon-menu ul {
+    position: absolute;
+    padding-left: 250px;
+    padding-top: 100px;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.icon-menu ul li {
+    list-style: none;
+    margin: 0 22px;
+}
+
+.icon-menu ul li .fa {
+    font-size: 28px;
+    line-height: 60px;
+    transition:0.6s;
+    color:#adcbcd;
+}
+
+.icon-menu ul li .fa:hover {
+    color: black;
+}
+
+.icon-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.6s;
+}
+
+.icon-menu ul li a:hover {
+    transform: translate(0, -10px);
+}
+
 
 /*when expanded*/
 @media screen and (min-width: 800px) {
@@ -159,26 +208,6 @@ div.text {
     }
 }
 
-/*style for phone
-@media only screen and (max-width: 600px) {
-    div.head-shot {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-    label {
-        display: block;
-        curser: pointer;
-    }
-
-    .highlight {
-        display: block;
-        border-bottom: 1px;
-        margin: 0;
-    }
-
-}*/
 
 
 
