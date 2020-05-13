@@ -1,5 +1,5 @@
 /*when expanded*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     p {
         color: black;
         font-size: 2vw;
@@ -22,7 +22,7 @@
 
     header {
         display: grid;
-        grid-template-columns: 1fr auto minmax(400px, 1fr) 1fr;
+        grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
     }
 
     nav {
