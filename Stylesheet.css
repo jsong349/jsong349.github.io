@@ -2,34 +2,49 @@
     margin: 0;
     padding: 0;
 }
+@media screen and (max-width: 600px) {
+    .text{
+        width: 95vw;
+    }
+    p {
+        color: black;
+        font-size: 5vw;
+    }
+
+    b {
+        color: #ADCBCD;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+    h1 {
+        color: black;
+        font-size: 6vw;
+    }
+
+    .icon-menu ul li .fa {
+        font-size: 4vw;
+        line-height: 10vw;
+        transition:0.6s;
+        color:#adcbcd;
+    }
+
+    .signature {
+        width: 35.2vw;
+        height: 14.6vw;
+    }
+
+    .jenny-logo {
+        width: 55vw;
+        height: 55vw;
+    }
+}
 body {
     background-color: white;
 }
-h1 {
-    color: black;
-    font-family: "Microsoft JhengHei UI Light";
-    font-size: 48px;
-}
 
-h2 {
-    color: black;
+.text{
     font-family: "Microsoft JhengHei UI Light";
-    font-size: 25px;
 }
-
-b {
-    color: #ADCBCD;
-    font-weight: bold;
-    font-family: "Microsoft JhengHei UI Light";
-    font-size: 25px;
-}
-
-/*span.highlight {
-    color: black;
-    font-family: "Microsoft JhengHei UI Light";
-    font-size: 18px;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 55%, #adcbcd 30%);
-}*/
 
 /*navigation style*/
 header {
@@ -68,7 +83,7 @@ nav a {
     background: white;
     text-decoration: none;
     font-family: "Microsoft JhengHei UI Light";
-    font-size: 18px;
+    font-size: 1.5vw;
     opacity: 0;
     transition: opacity 250ms ease-in-out 250ms;
 }
@@ -106,22 +121,21 @@ nav a:hover {
 }
 
 div.head-shot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 50%;
+    display: block;
 }
 
 div.text {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 /*icon style*/
 .icon-menu ul {
     position: absolute;
-    padding-left: 250px;
-    padding-top: 100px;
+    padding-left: 20.8vw;
+    padding-top: 8.3vw;
     margin: 0;
     transform: translate(-50%, -50%);
     display: flex;
@@ -129,15 +143,9 @@ div.text {
 
 .icon-menu ul li {
     list-style: none;
-    margin: 0 22px;
+    margin: 0 2vw;
 }
 
-.icon-menu ul li .fa {
-    font-size: 28px;
-    line-height: 60px;
-    transition:0.6s;
-    color:#adcbcd;
-}
 
 .icon-menu ul li .fa:hover {
     color: black;
@@ -146,8 +154,8 @@ div.text {
 .icon-menu ul li a {
     position: relative;
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50%;
     background-color: white;
     text-align: center;
@@ -155,59 +163,7 @@ div.text {
 }
 
 .icon-menu ul li a:hover {
-    transform: translate(0, -10px);
+    transform: translate(0, -1vh);
 }
-
-
-/*when expanded*/
-@media screen and (min-width: 800px) {
-    .nav-toggle-label {
-        display:none;
-    }
-
-    header {
-        display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
-    }
-
-    nav {
-        all: unset;
-        grid-column: 3 / 5;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
-
-    nav ul {
-        display: flex;
-    }
-
-    nav a {
-        opacity: 1;
-    }
-
-    nav li {
-        margin-left: 3em;
-        margin-bottom: 1em;
-        margin-right: 2em;
-    }
-
-    /*style for laptop*/
-    div.head-shot {
-        margin-left: 60px;
-    }
-
-    div.text {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .middle {
-        display: grid;
-        grid-template-columns: 4fr 6fr;
-    }
-}
-
-
 
 
