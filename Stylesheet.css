@@ -6,6 +6,12 @@
     .text{
         width: 95vw;
     }
+
+    nav ul li a{
+        color: black;
+        font-size: 5vw;
+    }
+
     p {
         color: black;
         font-size: 5vw;
