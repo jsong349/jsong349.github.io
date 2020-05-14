@@ -165,6 +165,16 @@ nav a:hover {
     padding-top: 135px;
 }
 
+.link {
+    text-decoration: none;
+}
+
+.link:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #adcbcd;
+}
+
 div.head-shot {
     margin: 0 auto;
     width: 50%;
