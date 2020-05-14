@@ -47,7 +47,6 @@
         margin-right: 2em;
     }
 
-    /*style for laptop*/
     div.head-shot {
         margin-left: 60px;
     }
@@ -62,6 +61,48 @@
         grid-template-columns: 4fr 6fr;
     }
 
+    .about-description {
+        display: grid;
+        grid-template-columns: 7fr 3fr;
+    }
+
+    .about-me {
+        font-family: "Microsoft JhengHei UI Light";
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .me {
+        width: 25.9vw;
+        height: 32.4vw;
+        margin-right: 4vw;
+    }
+
+    .hobbies {
+        padding-top: 5vw;
+        display: grid;
+        grid-template-columns: 6fr 2fr 2fr;
+        padding-bottom: 4vw;
+    }
+
+    .details {
+        font-family: "Microsoft JhengHei UI Light";
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .bullets {
+        padding-top: 2vw;
+        margin-left: 4vw;
+        line-height: 2;
+    }
+
+    .polaroid {
+        width: 18vw;
+        height: 24vw;
+        margin-right: 4vw;
+    }
+
     .icon-menu ul li .fa {
         font-size: 2.3vw;
         line-height: 5vw;
@@ -72,6 +113,7 @@
     .signature {
         width:17.6vw;
         height:7.3vw;
+        margin-left: -25%;
     }
 
     .jenny-logo {
