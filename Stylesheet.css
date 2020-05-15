@@ -17,11 +17,6 @@
         font-size: 5vw;
     }
 
-    b {
-        color: #ADCBCD;
-        font-weight: bold;
-        font-size: 5vw;
-    }
     h1 {
         color: black;
         font-size: 6vw;
@@ -31,7 +26,7 @@
         font-size: 4vw;
         line-height: 10vw;
         transition:0.6s;
-        color:#adcbcd;
+        color:#FED971;
     }
 
     .signature {
@@ -135,7 +130,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #adcbcd;
+    color: black;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 65%, #FED971 50%);
 }
 
 .nav-toggle:checked ~ nav {
@@ -165,6 +161,11 @@ nav a:hover {
     padding-left: 0;
     padding-top: 135px;
 }
+
+.highlight {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 65%, #FED971 50%);
+}
+
 .about-description {
     margin: 0;
     padding-left: 0;
@@ -173,12 +174,12 @@ nav a:hover {
 
 .link {
     text-decoration: none;
+    color: black;
 }
 
 .link:hover{
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: #adcbcd;
+    color: #6282b1;
+    text-decoration-color: #FED971;
 }
 
 div.head-shot {

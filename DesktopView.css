@@ -6,7 +6,7 @@
     }
 
     b {
-        color: #ADCBCD;
+        color: #FED971;
         font-weight: bold;
         font-size: 2vw;
     }
@@ -61,6 +61,7 @@
         grid-template-columns: 4fr 6fr;
     }
 
+
     .about-description {
         display: grid;
         grid-template-columns: 7fr 3fr;
@@ -107,7 +108,7 @@
         font-size: 2.3vw;
         line-height: 5vw;
         transition:0.6s;
-        color:#adcbcd;
+        color:#FED971;
     }
 
     .signature {
