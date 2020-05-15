@@ -9,17 +9,17 @@
 
     nav ul li a{
         color: black;
-        font-size: 5vw;
+        font-size: 3vw;
     }
 
     p {
         color: black;
-        font-size: 5vw;
+        font-size: 3vw;
     }
 
     h1 {
         color: black;
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     .icon-menu ul li .fa {
@@ -41,7 +41,7 @@
     }
 
     .about-me {
-        font-family: "Microsoft JhengHei UI Light";
+        font-family: 'Oxygen', sans-serif;;
         margin-left: 2vw;
         margin-right: 2vw;
     }
@@ -53,7 +53,7 @@
 
     .details {
         padding-top: 4vw;
-        font-family: "Microsoft JhengHei UI Light";
+        font-family: 'Oxygen', sans-serif;;
         margin-left: 2vw;
         margin-right: 2vw;
     }
@@ -84,7 +84,7 @@ body {
 }
 
 .text{
-    font-family: "Microsoft JhengHei UI Light";
+    font-family: 'Oxygen', sans-serif;;
 }
 
 /*navigation style*/
@@ -123,7 +123,7 @@ nav a {
     color: black;
     background: white;
     text-decoration: none;
-    font-family: "Microsoft JhengHei UI Light";
+    font-family: 'Oxygen', sans-serif;;
     font-size: 1.5vw;
     opacity: 0;
     transition: opacity 250ms ease-in-out 250ms;
@@ -178,7 +178,7 @@ nav a:hover {
 }
 
 .link:hover{
-    color: #6282b1;
+    color: dimgrey;
     text-decoration-color: #FED971;
 }
 
@@ -227,5 +227,21 @@ div.text {
 .icon-menu ul li a:hover {
     transform: translate(0, -1vh);
 }
+
+/*projects styling*/
+.body {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 135px;
+    font-family: 'Oxygen', sans-serif;;
+    display: grid;
+    grid-template-rows: 4fr 6fr;
+}
+
+.header {
+    margin-left: 4vw;
+}
+
+
 
 

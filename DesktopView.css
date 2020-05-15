@@ -2,18 +2,18 @@
 @media screen and (min-width: 800px) {
     p {
         color: black;
-        font-size: 2vw;
+        font-size: 1.7vw;
     }
 
     b {
         color: #FED971;
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 1.7vw;
     }
 
     h1 {
         color: black;
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .nav-toggle-label {
@@ -48,7 +48,7 @@
     }
 
     div.head-shot {
-        margin-left: 60px;
+        margin-left: 80px;
     }
 
     div.text {
@@ -68,7 +68,7 @@
     }
 
     .about-me {
-        font-family: "Microsoft JhengHei UI Light";
+        font-family: 'Oxygen', sans-serif;
         margin-left: 4vw;
         margin-right: 4vw;
     }
@@ -87,7 +87,7 @@
     }
 
     .details {
-        font-family: "Microsoft JhengHei UI Light";
+        font-family: 'Oxygen', sans-serif;;
         margin-left: 4vw;
         margin-right: 4vw;
     }
@@ -118,8 +118,8 @@
     }
 
     .jenny-logo {
-        width: 31vw;
-        height: 31vw;
+        width: 26vw;
+        height: 26vw;
     }
 }
 
