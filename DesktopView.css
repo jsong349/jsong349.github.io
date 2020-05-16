@@ -52,8 +52,8 @@
     }
 
     div.text {
-        margin-left: 2vw;
-        margin-right: 2vw;
+        margin-left: 0;
+        margin-right: 5vw;
     }
 
     .middle {
@@ -74,34 +74,17 @@
     }
 
     .me {
-        width: 25.9vw;
-        height: 32.4vw;
+        width: 28.4vw;
+        height: 35.6vw;
         margin-right: 4vw;
-    }
-
-    .hobbies {
-        padding-top: 5vw;
-        display: grid;
-        grid-template-columns: 6fr 2fr 2fr;
-        padding-bottom: 4vw;
     }
 
     .details {
         font-family: 'Oxygen', sans-serif;;
         margin-left: 4vw;
         margin-right: 4vw;
-    }
-
-    .bullets {
-        padding-top: 2vw;
-        margin-left: 4vw;
         line-height: 2;
-    }
-
-    .polaroid {
-        width: 18vw;
-        height: 24vw;
-        margin-right: 4vw;
+        padding-top: 2vw;
     }
 
     .icon-menu ul li .fa {
