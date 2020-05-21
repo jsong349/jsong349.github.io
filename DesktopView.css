@@ -16,6 +16,16 @@
         font-size: 3vw;
     }
 
+    h2 {
+        color: black;
+        font-size: 2vw;
+    }
+
+    h3 {
+        color: #E1AD01;
+        font-size: 1.8vw;
+    }
+
     .nav-toggle-label {
         display:none;
     }
@@ -97,7 +107,7 @@
     .signature {
         width:17.6vw;
         height:7.3vw;
-        margin-left: -25%;
+        margin-left: -20%;
     }
 
     .jenny-logo {
@@ -107,15 +117,16 @@
 
     /*project*/
 
-    .body {
-        display: grid;
-        grid-template-rows: 10vw;
-    }
-
-    .item {
+    .body1 {
         width: 50%;
         height: 50%;
         margin: 0 auto;
+    }
+
+    .body {
+        display: grid;
+        grid-template-rows: 6vw;
+        grid-gap: 1vw;
     }
 
     .hackathon {
@@ -132,7 +143,60 @@
         height: 20.2vw;
     }
 
+    /*shehacks*/
+    .mock {
+        width: 17.29vw;
+        height: 28.04vw;
+    }
 
+    .team {
+        width: 25.2vw;
+        height: 33.6vw;
+        box-shadow:5px 5px 5px 5px #d9d9d9;
+    }
+
+    .paragraph ul{
+        list-style-position: outside;
+        padding-left: 6vw;
+        line-height: 2.5vw;
+    }
+
+    .brainstorm {
+        width: 25.5vw;
+        height: 33vw;
+        box-shadow:5px 5px 5px 5px #d9d9d9;
+    }
+
+    .features {
+        padding-top: 4vw;
+        display: grid;
+        grid-template-columns: 1fr 2fr 6fr 1fr;
+    }
+
+    .mock-format {
+        all: unset;
+        grid-column: 2 / 3;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .screen {
+        width: 23.06vw;
+        height: 37.39vw;
+    }
+
+    .group1 {
+        width: 27.81vw;
+        height: 18.125vw;
+        box-shadow:5px 5px 5px 5px #d9d9d9;
+    }
+
+    .group2 {
+        width: 26.81vw;
+        height: 18.125vw;
+        box-shadow:5px 5px 5px 5px #d9d9d9;
+    }
 }
 
 
