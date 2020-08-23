@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7541f81d-3630-466e-9a4a-e8dac5dcfdd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shehacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/shehacks.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,8 @@
       <workItem from="1590376485531" duration="1092000" />
       <workItem from="1590449156065" duration="1228000" />
       <workItem from="1590716623687" duration="1835000" />
-      <workItem from="1596246360535" duration="374000" />
+      <workItem from="1596246360535" duration="417000" />
+      <workItem from="1598204718345" duration="920000" />
     </task>
     <servers />
   </component>
@@ -78,17 +76,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1590013893769" />
-    <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1596246585564">
+    <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1598204730282">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="341" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1596246585564" />
+    <state x="341" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1598204730282" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1589582376667">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589582376667" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589240919783">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589240919783" />
   </component>
 </project>
