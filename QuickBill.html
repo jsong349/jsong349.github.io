@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="PhoneView.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="DesktopView.css" media="screen"/>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Jenny Song</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="signature" id="signature.jpg" src="logo.jpg" alt="signature"></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="about.html">about</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="Jenny%20Song%20Resume.pdf" target="_blank">resume</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span>&#9776;</span>
+        </label>
+    </header>
+
+    <div class="body2">
+        <div class="body">
+            <div class="item">
+                <h1>QuickBill</h1>
+                <p>Scotiabank Hacks 2020 | 1st Place Overall Hack</p>
+            </div>
+            <div class="item">
+                <p>QuickBill extends the payment services of a branch to the palm of your hand through the Scotia app.
+                    By integrating the functionality of machine learning driven optical character recognition, we
+                    automatically identify the payee, account number, and amount due. You can simply take a photo of
+                    your bill within the app, or forward your bill via email for processing - QuickBill handles the
+                    rest!</p>
+            </div>
+            <div class="item">
+                <h2>🏆 Awards</h2>
+                <br>
+                <p>QuickBill won 1st Place Overall at <a href="https://www.scotiabank.com/global/en/global-site.html" target="_blank"
+                                        class="link"><span class="highlight">Scotiabank</span> </a>
+                    Hacks out of 300+ applicants, competing against a selected pool of 11 teams.
+                    Check out our GitHub repo <a
+                            href="https://github.com/Aradhya-B/s-hacks" target="_blank" class="link"><span
+                            class="highlight">here.</span> </a></p> <br>
+                <img class="scotiateam" src="Team%20phot.png" alt="team-pic">
+            </div>
+            <div class="item">
+                <h2>The Team</h2>
+                <br>
+                <div class="teammates">
+                    <div><p><span class="highlight">Jenny Song</span> - Product Design & Front-End Developer</p></div>
+                    <div><p><span class="highlight">David Ye</span> - Front-End Developer</p></div>
+                    <div><p><span class="highlight">Aradhya Bansal</span> - Back-End Developer</p></div>
+                    <div><p><span class="highlight">Matthew Danics</span> - Back-End Developer</p></div>
+                </div>
+                <br>
+            </div>
+            <div class="item-yellow">
+                <h2>The Challenge</h2>
+                <br>
+                <p>Develop a solution to a problem that Scotiabank customers experience that Scotiabank hasn’t built a
+                    solution for already.
+                </p>
+                <br>
+                <h2>The Solution</h2>
+                <br>
+                <p>A new feature on the Scotiabank banking app that allows the user to pay bills with a few swipes. By setting
+                    up email forwarding or taking a quick picture of your bill, all bill payments are now centralized on the
+                    banking app.</p>
+            </div>
+            <div class="item">
+                <h2>The Process</h2>
+                <br>
+                <h3>User Research </h3>
+                <br>
+                <p>We wanted to take a deeper look into our target demographics of seniors, newcomers, and people on-the-go.
+                    Why are bill payments so frustrating? What services are currently offered and why are they not effective?
+                    Why are people constantly late on payments?
+                </p>
+                <br>
+                <p>Through interviewing parents and grandparents, we discovered a few main takeaways:</p>
+                <br>
+                <div class="paragraph">
+                    <ul>
+                        <li>
+                            <p><strong>The bill payments process is a hassle</strong> – from receiving multiple bills in
+                                your mailbox or email, to typing out the numbers online, to finally paying a bill, then
+                                repeating that process again for every payment, the process is time consuming</p>
+                        </li>
+                        <li>
+                            <p><strong>People are looking for more digital banking solutions</strong> – the times of
+                                waiting in a long line at a banking branch are over, people are looking for quicker
+                                solutions from the comfort of their own home</p>
+                        </li>
+                        <li>
+                            <p><strong>Dealing with payments is messy</strong> – users felt it was difficult to keep
+                                track of payments and their deadlines</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Ideation</h3>
+                    <br>
+                    <p>With an increasing number of Scotia customers utilizing digital banking, my team wanted to create
+                        a new feature to tackle the issue of bill payments with a simple app feature.
+                        We understood that payments are typically received digitally, through monthly emails or
+                        physically, to the user's mailbox. We then set
+                        out to create a solution that addressed both sides of bill payment.
+                    </p> <br>
+                    <img class="ideation" src="ideationscotia.jpg" alt="brainstorm"><br>
+                    <p>As a result of our brainstorming, we decided to create a direct forwarding feature to address the
+                        payments received digitally and an image recognition feature to address the payments received
+                        physically.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <h3>Design & Prototyping</h3>
+                <br>
+                <p>In order to design a user-friendly feature that would attract more users and increase user engagement
+                    in our existing users, I prototyped our idea from start to finish on Figma. This allowed us to
+                    evaluate technical feasibility and user specification.
+                </p>
+                <br>
+                <p>Let’s take a look through some of the key features we deployed:</p>
+            </div>
+            <div class="features">
+                <div  class="mock-format"><img class="screenscotia" src="Mock2Scotia.png"></div>
+                <div class = "feature-desc">
+                    <br>
+                    <h2>DIRECT FORWARDING</h2>
+                    <p>Presenting all bills on a centralized page</p>
+                    <br>
+                    <p>With this new feature, users can set up forwarding from their personal email inbox directly to
+                        their Scotia app. Worried about privacy? QuickBill allows users to approve senders before bill
+                        payments can proceed. It's that simple! Now all bill payments will be displayed right on the Scotia app.
+                    </p>
+                    <br>
+                    <p>
+                        Users can then pay bills individually, or all at once, mitigating the issue of hassle and
+                        disorganization of traditional bill payment.
+                    </p>
+                </div>
+            </div>
+            <div class="features">
+                <div  class="mock-format"><img class="screenscotia" src="ScotiaHacks.png"></div>
+                <div class = "feature-desc">
+                    <br>
+                    <h2>IMAGE RECOGNITION</h2>
+                    <p>Allowing in-app automatic payments</p>
+                    <br>
+                    <p>Instead of adding a new payee, users can click onto the "Capture bills by image recognition"
+                        feature, and take a photo of their paper bill right on the app. The information will then
+                        automatically populate, and the user can pay on the spot!
+                    </p>
+                    <br>
+                    <p>
+                        Rather than wasting time typing out every bill separately, this new feature now allows user to
+                        save time with greater accuracy.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <h3>Development</h3>
+                <br>
+                <p>My team was proud to present a high-fidelity app prototype built with Typescript, Node, Express,
+                    Google Cloud Vision, MongoDB, and Flutter.
+                    It was my first time learning Flutter, but with the help of my team we were able to deliver a fully
+                    functional demonstration. With the constraints of COVID-19, this virtual hackathon required a
+                    3-minute pitch to win the judges over.
+                    Leveraging Canva, Vidyard, and iMovie, I was able to put together an engaging pitch to bring our
+                    vision to life.
+                    Check it out down below!
+                </p> <br>
+                <div class="iframe-container">
+                    <iframe align="middle" src="https://www.youtube.com/embed/4V9y0LT-JV8" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div> <br>
+                <p>Thanks again to my amazing team and Scotiabank for an amazing weekend.</p> <br><br>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

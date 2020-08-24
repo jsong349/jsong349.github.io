@@ -125,7 +125,7 @@
 
     .body {
         display: grid;
-        grid-template-rows: 6vw;
+        grid-template-rows: 7vw;
         grid-gap: 1vw;
     }
 
@@ -197,6 +197,33 @@
         height: 18.125vw;
         box-shadow:5px 5px 5px 5px #d9d9d9;
     }
+
+    /*scotiahacks*/
+    .iframe-container iframe{
+        width: 58.34vw;
+        height: 32.8vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .screenscotia {
+        width: 17.76vw;
+        height: 33.07vw;
+    }
+
+    .scotiateam {
+        display: block;
+        margin: 0 auto;
+        box-shadow: 10px 10px 5px #ccc;
+    }
+
+    .ideation {
+        display: block;
+        margin: 0 auto;
+        width: 61.31vw;
+        height: 40.48vw;
+    }
+
 }
 
 
